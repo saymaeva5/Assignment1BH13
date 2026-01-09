@@ -141,3 +141,60 @@ nav .menu a{
     color: #627382;
     line-height: 1.5;
 }
+/* ----brain part---- */
+#brain{
+    width: 100%;
+    height: 850px;
+    margin: 120px;
+    background-color: #FFFFFF ;
+}
+.brain_container{
+    max-width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+    margin: 120px;
+}
+.brain_image img{
+    width: 600px;
+    height: 600px;
+}
+.brain_text{
+    width: 700px;
+    height: 396px;
+}
+.brain_text h6{
+    color: #469165;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+.brain_text h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    padding-top: 16px ;
+}
+
+.brain_text p{
+    color: #627382;
+    padding-top: 16px;
+    font-weight: 400;
+}
+.brain_list{
+    list-style: none;
+    padding-top: 40px;
+    font-weight: 400;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.brain_list img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -6px;
+}
+
