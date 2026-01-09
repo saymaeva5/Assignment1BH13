@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----shared style-----*/
+.font_open_inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*-----main style-----*/
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+
+/* ------nav part----- */
+nav{
+    width: 88%;
+    max-width: 1360px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+ .btn{
+    background-color: #469165;
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 600;
+}
+
+.btn3{
+    background-color: transparent;
+    padding: 16.5px 16px 16.5px 46px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: color white 1px;
+    cursor: pointer;
+    font-size: 600;
+    align-items: center;
+}
+/* -----banner_part----- */
+#banner {
+    max-width: 1600px;
+    height: 674px;
+    background-image: url(./image/cropped-hands-woman-writing-book\ 1.png);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+}
+.early-access-open{
+    border: 1px solid white;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    /* max-width: 229px;
+    text-align: center; */
+}
+.banner_content{
+    padding: 147px 32px 32px 147px;
+}
+.banner_content p{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 16px;
+}
+.banner_content h1{
+    font-size: 50px;
+}
+.btn2{
+    width: 229px;
+    padding: 8px 12px 8px 20px;
+    border-radius: 1000px;
+    display: inline-flex;
+    align-items: center;
+    font-size: medium;
+    color: #469165;
+}
+.banner_content .button_container{
+    margin-top: 10px;
+}
