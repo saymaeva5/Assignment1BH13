@@ -95,3 +95,49 @@ nav .menu a{
     justify-content: center;
     gap: 20px;
 }
+
+/* -----note part----- */
+#note{
+    width: 100%;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFFb8;
+}
+.note_container{
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.note_heading{
+    text-align: center;
+}
+.note_heading h2{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.note_heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 8px;
+
+}
+.note_box{
+    display: flex;
+    gap: 24px;
+}
+.note_card{
+    flex: 1;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 70px 24px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(59, 57, 57, 0.232);
+}
+.note_card p{
+    font-size: 14px;
+    color: #627382;
+    line-height: 1.5;
+}
